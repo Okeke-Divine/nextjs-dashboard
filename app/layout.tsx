@@ -22,7 +22,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} antialiased`}>
         <div className="text-center">
-          Built by <b><a href="https://okekedivine.vercel.app" target={'_blank'}>Dev Divine</a></b>
+          Built by <b><a className='text-blue-400' href="https://okekedivine.vercel.app" target={'_blank'}>Dev Divine</a></b>
         </div>
         <div>{children}</div>
       </body>
