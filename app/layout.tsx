@@ -20,7 +20,12 @@ export default function RootLayout({
       <head>
         {/* <title>Next.js Dashboard - Okeke Divine-Vessel</title> */}
       </head>
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body className={`${inter.className} antialiased`}>
+        <div className="text-center">
+          Built by <b><a href="https://okekedivine.vercel.app" target={'_blank'}>Dev Divine</a></b>
+        </div>
+        <div>{children}</div>
+      </body>
     </html>
   );
 }
